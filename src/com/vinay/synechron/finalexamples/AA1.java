@@ -7,7 +7,7 @@ public class AA1 {
 
 	public static void main(String[] args) {
 		//PI =10.0 ;		
-		//System.out.println("Final variable must be intilaized in the declaration" +PI);
+		//System.out.println("Final variable value:=" +PI);
 		System.out.println("Vinay");
 
 	}

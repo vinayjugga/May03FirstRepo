@@ -11,7 +11,7 @@ public class ArrayListExample {
 		
 		a1.add("vinay") ;
 		a1.add("Ravi") ;
-		a1.add("raju") ;
+		a1.add("raju babu") ;
 		
 		System.out.println(a1);
 	
