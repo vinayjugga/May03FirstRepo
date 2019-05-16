@@ -1,4 +1,4 @@
-package com.vinay.syenchron.staticmethods;
+package com.vinay.synechron.staticmethods;
 
 /* write the program to access the static method without using the class reference */
 
