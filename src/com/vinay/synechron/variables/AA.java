@@ -1,5 +1,5 @@
 package com.vinay.synechron.variables;
-
+/* Local variables */
 public class AA {
 
 	public static void main(String[] args) {
