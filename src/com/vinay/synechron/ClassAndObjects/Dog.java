@@ -9,7 +9,7 @@ public class Dog {
     String color;
     
     public String getDogInfo() {
-        return ("Breed is: "+breed +"\nSize is:"+size+"\n Age is:"+age+"\n color is: "+color);
+        return ("Breed is: "+breed +"\nSize is:"+size+"\n Age is:"+age+" color is:\n "+color);
     }
 	public static void main(String[] args) {
 		
