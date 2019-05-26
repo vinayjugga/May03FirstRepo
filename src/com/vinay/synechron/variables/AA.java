@@ -1,4 +1,7 @@
 package com.vinay.synechron.variables;
+
+//import com.vinay.synechron.ClassAndObjects.FourClass;
+
 /* Primitive data types variables */
 public class AA {
 
@@ -24,8 +27,11 @@ public class AA {
 		System.out.println("Value of Float:="+ b);
 		System.out.println("Value of char :="+ c);
 		System.out.println("Value of Double:="+ d);	
-		System.out.println("Value of Boolean:="+ status);		
-
+		System.out.println("Value of Boolean:="+ status);	
+		
+		/*FourClass anotherClass = new FourClass() ;
+		anotherClass.display();*/ 
+		//if the class as default, can't be accesed in the outside the package
 
 	}
 
