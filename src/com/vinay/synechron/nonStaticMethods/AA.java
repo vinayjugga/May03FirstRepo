@@ -1,5 +1,7 @@
 package com.vinay.synechron.nonStaticMethods;
 
+
+
 /* write the program to access the static variable inside the non-static block */
 public class AA {
 	
@@ -25,6 +27,8 @@ public class AA {
 			
 		a.testNonStatcMethod();
 		System.out.println("Static variable value:="+vinayID);
+		
+	
 
 	}
 
