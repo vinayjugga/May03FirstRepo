@@ -2,6 +2,8 @@ package com.vinay.synechron.Acess_Modifiers;
 
 public class DefaultModifier {
 	
+	int a ;
+	
 	void display()
 	{
 		System.out.println("Default Modifier");

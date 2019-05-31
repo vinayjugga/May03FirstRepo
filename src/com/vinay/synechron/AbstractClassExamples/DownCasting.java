@@ -1,5 +1,5 @@
 package com.vinay.synechron.AbstractClassExamples;
-class WebDriver 
+class WebDriver2 
 {
 	public void test1() 
 	{
@@ -14,7 +14,7 @@ class WebDriver
 	
 	
 }
-public class DownCasting extends WebDriver {
+public class DownCasting extends WebDriver2 {
 	
 	public void test3()
 	{
@@ -23,7 +23,7 @@ public class DownCasting extends WebDriver {
 
 	public static void main(String[] args) {
 
-		WebDriver driver = new DownCasting();
+		WebDriver2 driver = new DownCasting();
 		driver.test1();
 		driver.test2();
 		

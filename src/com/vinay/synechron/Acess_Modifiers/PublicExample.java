@@ -11,6 +11,14 @@ public class PublicExample {
 		ProtectedExample obj = new ProtectedExample();
 		obj.protecteMethod();
 		
+		
+		
+		/*
+		 * PrivateEx obj1 = new PrivateEx(); obj1.privateMethod();
+		 */
+		
+		/* A a1 = new A() ; */
+		
 	}
 
 }
