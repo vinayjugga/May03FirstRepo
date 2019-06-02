@@ -4,8 +4,7 @@ public class Employee {
 
 		private int ssn ;
 		private String empName ;
-		private int empAge ;
-		
+		private int empAge ;		
 		
 		public int getEmpSSN()
 		{
@@ -34,14 +33,22 @@ public class Employee {
 		
 		public void setEmpAge(int newAge)
 		{
+			if(newAge >18)
+			{
 			empAge = newAge ;
+			}
+			else
+			{
+				empAge =18;
+			}
 		}
 		public static void main(String[] args) {
 			System.out.println("Example of Encapsulation Data hiding");
 			Employee one1Obj = new Employee();
 			one1Obj.setEmpName("Vinay");
 			one1Obj.setEmpSSN(12345);
-			one1Obj.setEmpAge(36);			
+			one1Obj.setEmpAge(17);	
+			
 			System.out.println("Employe name :="+one1Obj.getEmpName());
 			System.out.println("Employe SSN :="+one1Obj.getEmpSSN());
 			System.out.println("Employe Age :="+one1Obj.getEmpAge());
