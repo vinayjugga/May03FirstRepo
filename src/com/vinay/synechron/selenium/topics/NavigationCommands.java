@@ -1,8 +1,7 @@
 package com.vinay.synechron.selenium.topics;
 
-public class NavigateBack extends BasePage
+public class NavigationCommands extends BasePage {
 
-{
 	public static void main(String[] args) {
 		
 		BasePage.openPage("http:\\www.google.com");
@@ -17,7 +16,7 @@ public class NavigateBack extends BasePage
 			System.out.println("bing page is not loaded");
 		}
 		driver.close();
-	}
 
+	}
 
 }
