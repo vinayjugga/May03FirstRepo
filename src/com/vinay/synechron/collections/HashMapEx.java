@@ -18,7 +18,7 @@ public class HashMapEx {
 		hmap.put(3, "vinay");
 
 		System.out.println("HashMap Key value pari:="+ hmap);
-		/* Display content using Iterator*/
+		/* Display content using Iterator
 		Set set = hmap.entrySet();	      
 		Iterator iterator = set.iterator();	      
 		while(iterator.hasNext()) {
@@ -27,11 +27,11 @@ public class HashMapEx {
 			System.out.println(mentry.getValue());
 		}
 
-		/* Get values based on key*/
+		 Get values based on key
 		String var= hmap.get(2);
 		System.out.println("Value at index 2 is: "+var);
 
-		/* Remove values based on key*/
+		 Remove values based on key
 		hmap.remove(3);
 		System.out.println("Map key and values after removal:");
 
@@ -43,5 +43,6 @@ public class HashMapEx {
 			System.out.println(mentry2.getValue());
 		}
 	}
-
+*/
+	}
 }

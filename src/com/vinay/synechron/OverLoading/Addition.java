@@ -32,6 +32,12 @@ public class Addition {
 		System.out.println("Value fo add(10.1) ="+d1);
 
 	}
+	public static void main(String[] args,String a) {
+		
+	}
+	
+	
+	
 
 
 }

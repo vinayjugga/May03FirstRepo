@@ -15,14 +15,14 @@ public class LocatorsExamples extends BasePage{
 		WebElement element = driver.findElement(By.name("q"));
 		element.sendKeys("selenium");	
 		Thread.sleep(2000);
-		List<WebElement> prepoplatedSearch = driver.findElements(By.cssSelector("ul[role='listbox']")) ;		
+		List<WebElement> prepoplatedSearch = driver.findElements(By.cssSelector("ul[role='listbox']"));		
 		for(WebElement el: prepoplatedSearch)
 		{
 			System.out.println(el.getText());
 			
 		}
 		System.out.println(prepoplatedSearch.size());
-		//driver.close();
+		driver.close();
 
 	}
 

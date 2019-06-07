@@ -10,7 +10,8 @@ public class FinallyTryBlock {
 	   public static int myMethod()
 	   {
 	      try {
-	        return 112;
+	    	  System.out.println("try block");
+	    	  return 112;
 	      }
 	      finally {
 	        System.out.println("This is Finally block");

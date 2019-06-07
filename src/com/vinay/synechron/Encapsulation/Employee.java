@@ -45,9 +45,11 @@ public class Employee {
 		public static void main(String[] args) {
 			System.out.println("Example of Encapsulation Data hiding");
 			Employee one1Obj = new Employee();
+			
+			
 			one1Obj.setEmpName("Vinay");
 			one1Obj.setEmpSSN(12345);
-			one1Obj.setEmpAge(17);	
+			one1Obj.setEmpAge(47);
 			
 			System.out.println("Employe name :="+one1Obj.getEmpName());
 			System.out.println("Employe SSN :="+one1Obj.getEmpSSN());

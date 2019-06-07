@@ -18,12 +18,14 @@ public class InitilizeArrayList {
 		System.out.println("String ArryList:="+obj);
 
 		ArrayList<Integer> obj1 = new ArrayList<Integer>(
-				Arrays.asList(10,20,30,50,60));		
+				Arrays.asList(10,20,30,50,60));	
+		
 		System.out.println("Integer ArryaList:="+obj1);
 
 		List<String> a1 = new ArrayList<String>() ;	
 		List<String> a2 = new LinkedList<String>() ;
 		List<String> a3 = new Vector<String>();
+		
 
 		a1.add("vinay") ;
 		a1.add("Ravi") ;
